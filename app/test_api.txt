@@ -1,0 +1,9 @@
+Welcome Dummy api example
+This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features. You can use this rest api tutorials, faking a server, sharing code examples.
+There are following public apis
+# 	Route 	Method 	Type 	Full route 	Description 	Details
+1 	/employee 	GET 	JSON 	http://dummy.restapiexample.com/api/v1/employees 	Get all employee data 	Details
+2 	/employee/{id} 	GET 	JSON 	http://dummy.restapiexample.com/api/v1/employee/1 	Get a single employee data 	Details
+3 	/create 	POST 	JSON 	http://dummy.restapiexample.com/api/v1/create 	Create new record in database 	Details
+4 	/update/{id} 	PUT 	JSON 	http://dummy.restapiexample.com/api/v1/update/21 	Update an employee record 	Details
+5 	/delete/{id} 	DELETE 	JSON 	http://dummy.restapiexample.com/api/v1/update/2 	Delete an employee record 	Details
